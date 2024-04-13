@@ -10,10 +10,10 @@ namespace BadmintonModelLib
 {
     public class BadmintonRacket
     {
-        public string Brand { get; set; }
-        public string Model { get; set; }
-        public string Material { get; set; }
-        public int Weight { get; set; }
-        public int Flexibility { get; set; }
+        public string Brand;
+        public string Model;
+        public string Material;
+        public int Weight;
+        public int Flexibility;
     }
 }

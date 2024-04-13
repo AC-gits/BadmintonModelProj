@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace BadmintonModelLib
 {
-    public static class RacketData
+    public class RacketData
     {
+
         public static BadmintonRacket GetYonexRacket(string model)
         {
             switch (model)
